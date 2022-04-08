@@ -139,12 +139,19 @@ define([
             var TemplateIDValue = $('#TemplateID').val();
             let auth = "{{Contact.Attribute.Authorization.Value}}"
            
-            if (TemplateNameValue === "" || TemplateIDValue === "") {
-
-                document.getElementById("step2").style.display = "block"
-
-                return;
-            }
+            function onClickedNext() {
+			var TemplateNameValue = $('#TemplateName').val();
+			var TemplateIDValue = $('#TemplateID').val();
+			if( TemplateNameValue === "" || TemplateIDValue === "")
+			{
+			document.getElementById("step2").style.display="block";
+			connection.trigger("nextStep");
+			}
+			else
+			{
+			save();
+			}
+			}
 
             payload['arguments'].execute.inArguments = [{
                 "loanId": "{{Contact.Attribute.LCSMS.loanId}}",
