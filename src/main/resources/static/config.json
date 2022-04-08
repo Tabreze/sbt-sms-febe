@@ -41,7 +41,7 @@
 				 }               
             ],
             "outArguments": [],
-            "url": "https://sbt-sms-febe.herokuapp.com/activity/execute",
+            "url": "https://api-sandbox.lendingclub.com/api/sbt-sms-febe/activity/execute",
             "verb": "POST",
             "body": "",
  			"header": "",
@@ -54,7 +54,7 @@
 	"configurationArguments": {
       
        "save": {
-           "url": "https://sbt-sms-febe.herokuapp.com/activity/save",
+           "url": "https://api-sandbox.lendingclub.com/api/sbt-sms-febe/activity/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -64,7 +64,7 @@
        },
         
        "publish": {
-           "url": "https://sbt-sms-febe.herokuapp.com/activity/publish",
+           "url": "https://api-sandbox.lendingclub.com/api/sbt-sms-febe/activity/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -73,7 +73,7 @@
             "timeout": 8000
        },
        "validate": {
-           "url": "https://sbt-sms-febe.herokuapp.com/activity/validate",
+           "url": "https://api-sandbox.lendingclub.com/api/sbt-sms-febe/activity/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -82,7 +82,7 @@
             "timeout": 8000
        },
 		"stop": {
-           "url": "https://sbt-sms-febe.herokuapp.com/activity/stop",
+           "url": "https://api-sandbox.lendingclub.com/api/sbt-sms-febe/activity/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
