@@ -18,23 +18,25 @@
             "inArguments": [
                 {
 				"loanId": "{{Contact.Attribute.LCSMS.loanId}}",
-				"communicationChannel": "{{Contact.Attribute.LCSMS.communicationChannel}}",
-				"primaryActorId": "{{Contact.Attribute.LCSMS.primaryActorId}}",
-				"businessUnit": "{{Contact.Attribute.LCSMS.businessUnit}}",
-				"messageContent": "{{Contact.Attribute.LCSMS.messageContent}}",
-				"messageSubjectLine": "{{Contact.Attribute.LCSMS.messageSubjectLine}}",
-				"note": "{{Contact.Attribute.LCSMS.note}}",
-				"source": "{{Contact.Attribute.LCSMS.source}}",
-				"sourceMessageId": "{{Contact.Attribute.LCSMS.sourceMessageId}}",
-				"vendor": "{{Contact.Attribute.LCSMS.vendor}}",
-				"messageOptions": {
-					"doNotCheckDNC": "{{Contact.Attribute.LCSMS.doNotCheckDNC}}",
-					"channelAddress": "{{Contact.Attribute.LCSMS.channelAddress}}",
-					"doNotCheckSmsCompliance": "{{Contact.Attribute.LCSMS.doNotCheckSmsCompliance}}"
-				},
-				"messageSchedulingOptionsList": [{
-					"messageContent": "{{Contact.Attribute.LCSMS.messageContent}}"
-				}]
+                "communicationChannel": "{{Contact.Attribute.LCSMS.communicationChannel}}",
+                "primaryActorId": "{{Contact.Attribute.LCSMS.primaryActorId}}",
+                "businessUnit": "{{Contact.Attribute.LCSMS.businessUnit}}",
+                "messageContent": "{{Contact.Attribute.LCSMS.messageContent}}",
+                "messageSubjectLine": "{{Contact.Attribute.LCSMS.messageSubjectLine}}",
+                "note": "{{Contact.Attribute.LCSMS.note}}",
+                "source": "{{Contact.Attribute.LCSMS.source}}",
+                "sourceMessageId": "{{Contact.Attribute.LCSMS.sourceMessageId}}",
+                "vendor": "{{Contact.Attribute.LCSMS.vendor}}",
+                "messageOptions": {
+                    "doNotCheckDNC": "{{Contact.Attribute.LCSMS.doNotCheckDNC}}",
+                    "channelAddress": "{{Contact.Attribute.LCSMS.channelAddress}}",
+                    "doNotCheckSmsCompliance": "{{Contact.Attribute.LCSMS.doNotCheckSmsCompliance}}"
+                },
+                "messageMetadata" : "{{Contact.Attribute.LCSMS.messageMetadata}}",       
+               	"messageSchedulingOptionsList": [{
+      			"scheduleTime": "{{Contact.Attribute.LCSMS.scheduleTime}}",
+      			"messageContent" : "{{Contact.Attribute.LCSMS.messageContent}}"
+    			}]
 					 
 				 }               
             ],
@@ -201,6 +203,22 @@
 					{
                         "doNotCheckSmsCompliance": {
                              "dataType": "Boolean",
+                            "isNullable": true,
+                            "direction": "out"
+                        }
+                        
+                    },
+                    {
+                        "scheduleTime": {
+                             "dataType": "Date",
+                            "isNullable": true,
+                            "direction": "out"
+                        }
+                        
+                    },
+                    {
+                        "messageMetadata": {
+                             "dataType": "String",
                             "isNullable": true,
                             "direction": "out"
                         }
