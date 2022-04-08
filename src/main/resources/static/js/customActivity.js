@@ -132,14 +132,7 @@ define([
 
     }
 
-    function save() {
-        try {
-
-            var TemplateNameValue = $('#TemplateName').val();
-            var TemplateIDValue = $('#TemplateID').val();
-            let auth = "{{Contact.Attribute.Authorization.Value}}"
-           
-            function onClickedNext() {
+	function onClickedNext() {
 			var TemplateNameValue = $('#TemplateName').val();
 			var TemplateIDValue = $('#TemplateID').val();
 			if( TemplateNameValue === "" || TemplateIDValue === "")
@@ -152,7 +145,13 @@ define([
 			save();
 			}
 			}
+    function save() {
+        try {
 
+            var TemplateNameValue = $('#TemplateName').val();
+            var TemplateIDValue = $('#TemplateID').val();
+            let auth = "{{Contact.Attribute.Authorization.Value}}"
+           
             payload['arguments'].execute.inArguments = [{
                 "loanId": "{{Contact.Attribute.LCSMS.loanId}}",
                 "eventType": TemplateNameValue,
