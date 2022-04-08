@@ -31,12 +31,8 @@
                     "doNotCheckDNC": "{{Contact.Attribute.LCSMS.doNotCheckDNC}}",
                     "channelAddress": "{{Contact.Attribute.LCSMS.channelAddress}}",
                     "doNotCheckSmsCompliance": "{{Contact.Attribute.LCSMS.doNotCheckSmsCompliance}}"
-                },
-                "messageMetadata" : "{{Contact.Attribute.LCSMS.messageMetadata}}",       
-               	"messageSchedulingOptionsList": [{
-      			"scheduleTime": "{{Contact.Attribute.LCSMS.scheduleTime}}",
-      			"messageContent" : "{{Contact.Attribute.LCSMS.messageContent}}"
-    			}]
+                }
+               	
 					 
 				 }               
             ],
@@ -207,23 +203,9 @@
                             "direction": "out"
                         }
                         
-                    },
-                    {
-                        "scheduleTime": {
-                             "dataType": "Date",
-                            "isNullable": true,
-                            "direction": "out"
-                        }
-                        
-                    },
-                    {
-                        "messageMetadata": {
-                             "dataType": "String",
-                            "isNullable": true,
-                            "direction": "out"
-                        }
-                        
                     }
+                    
+                   
 					 
 ],
 

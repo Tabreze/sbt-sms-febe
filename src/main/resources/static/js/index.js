@@ -34,87 +34,87 @@ document.getElementById("TemplateName").value = "Select";
 }
 else if($('#TemplateID').val() == '1')
 {
-document.getElementById("TemplateName").value = "Payment Reminder";
+document.getElementById("TemplateName").value = "PAYMENT_REMINDER";
 }
 else if($('#TemplateID').val() == '2')
 {
-document.getElementById("TemplateName").value = "Delinquency Notice"
+document.getElementById("TemplateName").value = "DQ_NOTICE"
 }
 else if($('#TemplateID').val() == '3')
 {
-document.getElementById("TemplateName").value = "Opt-in Confirmation Message"
+document.getElementById("TemplateName").value = "OPT-IN_CONFIRMATION_MESSAGE"
 }
 else if($('#TemplateID').val() == '4')
 {
-document.getElementById("TemplateName").value = "Scheduled Payment Reminder"
+document.getElementById("TemplateName").value = "SCHEDULED_PAYMENT_REMINDER"
 }
 else if($('#TemplateID').val() == '5')
 {
-document.getElementById("TemplateName").value = "Payment Reminders With No Payment Link"
+document.getElementById("TemplateName").value = "PAYMENT_REMINDERS_WITH_NO_PAYMENT_LINK"
 }
 else if($('#TemplateID').val() == '6')
 {
-document.getElementById("TemplateName").value = "DQ Limited Content – Option 1"
+document.getElementById("TemplateName").value = "DQ_LIMITED_CONTENT_–_OPTION_1"
 }
 else if($('#TemplateID').val() == '7')
 {
-document.getElementById("TemplateName").value = "DQ Limited Content – Option 2"
+document.getElementById("TemplateName").value = "DQ_LIMITED_CONTENT_–_OPTION_2"
 }
 else if($('#TemplateID').val() == '8')
 {
-document.getElementById("TemplateName").value = "DPD 111"
+document.getElementById("TemplateName").value = "DPD_111"
 }
 else if($('#TemplateID').val() == '9')
 {
-document.getElementById("TemplateName").value = "DPD 13"
+document.getElementById("TemplateName").value = "DPD_13"
 }
 else if($('#TemplateID').val() == '10')
 {
-document.getElementById("TemplateName").value = "DPD 21"
+document.getElementById("TemplateName").value = "DPD_21"
 }
 else if($('#TemplateID').val() == '11')
 {
-document.getElementById("TemplateName").value = "DPD 28"
+document.getElementById("TemplateName").value = "DPD_28"
 }
 else if($('#TemplateID').val() == '12')
 {
-document.getElementById("TemplateName").value = "DPD 36"
+document.getElementById("TemplateName").value = "DPD_36"
 }
 else if($('#TemplateID').val() == '13')
 {
-document.getElementById("TemplateName").value = "DPD 43"
+document.getElementById("TemplateName").value = "DPD_43"
 }
 else if($('#TemplateID').val() == '14')
 {
-document.getElementById("TemplateName").value = "DPD 50"
+document.getElementById("TemplateName").value = "DPD_50"
 }
 else if($('#TemplateID').val() == '15')
 {
-document.getElementById("TemplateName").value = "DPD 57"
+document.getElementById("TemplateName").value = "DPD_57"
 }
 else if($('#TemplateID').val() == '16')
 {
-document.getElementById("TemplateName").value = "DPD 64"
+document.getElementById("TemplateName").value = "DPD_64"
 }
 else if($('#TemplateID').val() == '17')
 {
-document.getElementById("TemplateName").value = "DPD 7"
+document.getElementById("TemplateName").value = "DPD_7"
 }
 else if($('#TemplateID').val() == '18')
 {
-document.getElementById("TemplateName").value = "DPD 71"
+document.getElementById("TemplateName").value = "DPD_71"
 }
 else if($('#TemplateID').val() == '19')
 {
-document.getElementById("TemplateName").value = "DPD 85"
+document.getElementById("TemplateName").value = "DPD_85"
 }
 else if($('#TemplateID').val() == '20')
 {
-document.getElementById("TemplateName").value = "DPD 97"
+document.getElementById("TemplateName").value = "DPD_97"
 }
 else if($('#TemplateID').val() == '21')
 {
-document.getElementById("TemplateName").value = "COVID-19 MESSAGE 1"
+document.getElementById("TemplateName").value = "COVID-19_MESSAGE_1"
 }
 else if($('#TemplateID').val() == '22')
 {
@@ -250,11 +250,11 @@ document.getElementById("TemplateName").value = "DPD 13 - With PNM Debit Payment
 }
 else if($('#TemplateID').val() == '55')
 {
-document.getElementById("TemplateName").value = "DPD 13 - With PNM Debit Payment Link (Mini-Miranda)"
+document.getElementById("TemplateName").value = "DPD_13_-_WITH_PNM_DEBIT_PAYMENT_LINK_(MINI-MIRANDA)"
 }
 else if($('#TemplateID').val() == '56')
 {
-document.getElementById("TemplateName").value = "Payment Reminders With PNM Debit Payment Link"
+document.getElementById("TemplateName").value = "PAYMENT_REMINDERS_WITH_PNM_DEBIT_PAYMENT_LINK"
 }
 
 }

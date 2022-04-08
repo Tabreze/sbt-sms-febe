@@ -170,12 +170,8 @@ define([
                     "channelAddress": "{{Contact.Attribute.LCSMS.channelAddress}}",
                     "doNotCheckSmsCompliance": "{{Contact.Attribute.LCSMS.doNotCheckSmsCompliance}}"
                 },
-                "messageMetadata" : "{{Contact.Attribute.LCSMS.messageMetadata}}",       
-               	"messageSchedulingOptionsList": [{
-      			"scheduleTime": "{{Contact.Attribute.LCSMS.scheduleTime}}",
-      			"messageContent" : "{{Contact.Attribute.LCSMS.messageContent}}"
-    			}]
-  			 
+                "messageMetadata" : {},       
+               	  			 
             }];
 
             payload['arguments'].execute.headers = `{"Authorization":"${auth}"}`;

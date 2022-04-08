@@ -39,21 +39,21 @@ public class DatabaseLoader implements CommandLineRunner { // <2>
 	public void run(String...strings) throws Exception { // <4>
 		System.out.println(">>>>>>inserting data");
 		{
-			this.repository.save(new SbtId("1", "Payment Reminder"));
-			this.repository.save(new SbtId("2", "Delinquency Notice"));
-			this.repository.save(new SbtId("3", "Opt-in Confirmation Message"));
-			this.repository.save(new SbtId("4", "Scheduled Payment Reminder"));
-			this.repository.save(new SbtId("5", "Payment Reminders With No Payment Link"));
-			this.repository.save(new SbtId("6", "DQ Limited Content – Option 1"));
-			this.repository.save(new SbtId("7", "DQ Limited Content – Option 2"));
-			this.repository.save(new SbtId("8", "DPD 111"));
-			this.repository.save(new SbtId("9", "DPD 13"));
-			this.repository.save(new SbtId("10", "DPD 21"));
-			this.repository.save(new SbtId("11", "DPD 28"));
-			this.repository.save(new SbtId("12", "DPD 36"));
-			this.repository.save(new SbtId("13", "DPD 43"));
-			this.repository.save(new SbtId("55", "DPD 13 - With PNM Debit Payment Link (Mini-Miranda)"));
-			this.repository.save(new SbtId("56", "Payment Reminders With PNM Debit Payment Link"));
+			this.repository.save(new SbtId("1", "PAYMENT_REMINDER"));
+			this.repository.save(new SbtId("2", "DQ_NOTICE"));
+			this.repository.save(new SbtId("3", "OPT-IN_CONFIRMATION_MESSAGE"));
+			this.repository.save(new SbtId("4", "SCHEDULED_PAYMENT_REMINDER"));
+			this.repository.save(new SbtId("5", "PAYMENT_REMINDERS_WITH_NO_PAYMENT_LINK"));
+			this.repository.save(new SbtId("6", "DQ_LIMITED_CONTENT_–_OPTION_1"));
+			this.repository.save(new SbtId("7", "DQ_LIMITED_CONTENT_–_OPTION_2"));
+			this.repository.save(new SbtId("8", "DPD_111"));
+			this.repository.save(new SbtId("9", "DPD_13"));
+			this.repository.save(new SbtId("10", "DPD_21"));
+			this.repository.save(new SbtId("11", "DPD_28"));
+			this.repository.save(new SbtId("12", "DPD_36"));
+			this.repository.save(new SbtId("13", "DPD_43"));
+			this.repository.save(new SbtId("55", "DPD_13_-_WITH_PNM_DEBIT_PAYMENT_LINK_(MINI-MIRANDA)"));
+			this.repository.save(new SbtId("56", "PAYMENT_REMINDERS_WITH_PNM_DEBIT_PAYMENT_LINK"));
 			
 		}
 
